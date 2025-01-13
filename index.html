@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Feature</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-6">
+<div class="container mx-auto flex gap-6">
+    <!-- Draggable Items -->
+    <div class="w-1/3 p-4 bg-white shadow rounded">
+        <h2 class="text-lg font-bold mb-4">Draggable Elements</h2>
+        <ul id="draggable-list" class="space-y-2">
+            <!-- Draggable items will be populated dynamically -->
+        </ul>
+    </div>
+
+    <!-- Droppable Area -->
+    <div class="w-2/3 p-4 bg-white shadow rounded">
+        <h2 class="text-lg font-bold mb-4">Drop Area</h2>
+        <div id="drop-area" class="border-2 border-dashed border-gray-300 rounded p-4 min-h-[200px]">
+            <!-- Dropped items will appear here -->
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.draggable {
+    cursor: grab;
+}
+.droppable {
+    transition: background-color 0.2s ease-in-out;
+}
+.droppable:hover {
+    background-color: #f3f4f6;
+}
